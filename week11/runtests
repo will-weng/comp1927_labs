@@ -2,12 +2,14 @@
 
 size=200
 
+cat /dev/null > log
 for insert in L A B R S V
 do
 	for order in A
 	do
-		echo ""
-		echo "Test: ./tlab $size $order $insert"
-		echo "t" | ./tlab $size $order $insert | grep -v Tree
+		echo "" >> log
+		echo "Test: ./tlab $size $order $insert" >> log
+		echo "t" | ./tlab $size $order $insert | grep -v Tree  >> log
 	done
 done
+diff log expected
