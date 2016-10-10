@@ -1,0 +1,20 @@
+Input	Initial	Has	Number	AvgTime		AvgTime
+Size	Order	Dups	of runs	forusel		forsort
+5000	random	no	5	T0.120sec	T0.004sec
+5000	sorted	no	5	T0.085sec	T0.004sec
+5000	reverse	no	5	T0.044sec	T0.008sec
+5000	random	yes	5	T0.032sec	T0.008sec
+5000	sorted	yes	5	T0.058sec	T0.002sec
+5000	reverse	yes	5	T0.004sec	T0.004sec
+10000	random	no	5	T0.224sec	T0.016sec
+10000	sorted	no	5	T0.244sec	T0.012sec
+10000	reverse	no	5	T0.08sec	T0.008sec
+10000	random	yes	5	T0.153sec	T0.012sec
+10000	sorted	yes	5	T0.172sec	T0.008sec
+10000	reverse	yes	5	T0.004sec	T0.004sec
+
+In comparison to the preexisting sorting method, our code lacked efficiency.
+
+It was fastest when sorting 'reverse' as the numbers are continually added to the front instead of having to go through the whole list.
+
+Sorted was the longest as the pointers had to go through the entire list in each iteration

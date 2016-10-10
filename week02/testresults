@@ -1,0 +1,14 @@
+#!/bin/sh
+
+for size in 10 100
+do
+	for order in stability
+	do
+		echo === Testing $order input, size $size ===
+      sort -n < tests/$order$size > results/$order$size.expected
+   	./sortB < tests/$order$size > results/$order$size.observed
+   	diff results/$order$size.expected results/$order$size.observed >> logBStability
+	done
+done
+
+rm results/*.expected results/*.observed

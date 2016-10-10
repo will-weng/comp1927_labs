@@ -1,0 +1,15 @@
+#!/bin/sh
+
+cat /dev/null > log
+for size in 1000 10000 100000 900000 999999
+do
+	for order in random sorted reversed
+	do
+		echo === Testing for $order input, size $size === >> log
+		for i in 1 2 3 4 5
+		do
+			{ cat tests/$order$size | /usr/bin/time -f '%U' sort > /dev/null ; } 2>> log
+		done
+		echo "" >> log
+	done
+done

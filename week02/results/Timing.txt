@@ -1,0 +1,298 @@
+Timing.txt
+
+This is a large database with all the timing of every sort algorithm.
+integers are generated from genOrdered.c, genReversed.c and genRandom.c.
+a range of datas are tested for all sorts (10,100,1000,10000,100000)
+
+time is used with only the user value.
+
+Obvious Bubble Sort:
+
+	Random integers:
+	10  			0m0.001s		0m0.001s		0m0.001s
+
+	100			0m0.001s		0m0.001s		0m0.001s
+
+	1000			0m0.007s		0m0.006s		0m0.007s
+
+	10000 			0m0.393s		0m0.378s		0m0.383s
+
+	100000			0m41.792s		0m40.793s		0m40.971s
+
+	Ordered integers:
+	10 			0m0.001s		0m0.001s		0m0.001s
+
+	100			0m0.001s		0m0.001s		0m0.001s
+
+	1000			0m0.004s		0m0.004s		0m0.004s
+
+	10000 			0m0.135s		0m0.138s		0m0.135s
+
+	100000			0m13.204s		0m13.099s		0m13.102s
+
+	Reverse integers:
+	10 			0m0.001s		0m0.001s		0m0.001s
+
+	100			0m0.001s		0m0.001s		0m0.001s
+
+	1000			0m0.008s		0m0.008s		0m0.006s
+
+	10000 			0m0.0417s		0m0.403s		0m0.404s
+
+	100000			0m40.908s		0m40.133s		0m40.083s
+
+Bubble Sort With Early Exit:
+
+	Random integers:
+	10 			0m0.001s		0m0.001s		0m0.001s
+
+	100			0m0.001s		0m0.001s		0m0.001s
+
+	1000			0m0.007s		0m0.008s		0m0.006s
+
+	10000 			0m0.0411s		0m0.398s		0m0.398s
+
+	100000			0m43.639s		0m43.035s		0m43.035s
+
+	Ordered integers:
+	10 			0m0.001s		0m0.001s		0m0.001s
+
+	100			0m0.001s		0m0.001s		0m0.001s
+
+	1000			0m0.001s		0m0.001s		0m0.001s
+
+	10000 			0m0.006s		0m0.006s		0m0.007s
+
+	100000			0m0.035s		0m0.037s		0m0.037s
+
+	Reverse integers:
+	10 			0m0.001s		0m0.001s		0m0.001s
+
+	100			0m0.001s		0m0.001s		0m0.001s
+
+	1000			0m0.004s		0m0.008s		0m0.006s
+
+	10000 			0m0.416s		0m0.411s		0m0.412s
+
+	100000			0m42.084s		0m41.445s		0m41.331s
+
+Vanilla Insertion Sort:
+
+	Random integers:
+	10 			0m0.001s		0m0.001s		0m0.001s
+
+	100			0m0.001s		0m0.001s		0m0.001s
+
+	1000			0m0.004s		0m0.003s		0m0.002s
+
+	10000 			0m0.092s		0m0.085s		0m0.086s
+
+	100000			0m7.757s		0m7.691s		0m7.695s
+
+	Ordered integers:
+	10 			0m0.001s		0m0.001s		0m0.001s
+
+	100			0m0.001s		0m0.001s		0m0.001s
+
+	1000			0m0.001s		0m0.001s		0m0.001s
+
+	10000 			0m0.006s		0m0.006s		0m0.006s
+
+	100000			0m0.037s		0m0.038s		0m0.039s
+
+	Reverse integers:
+	10 			0m0.001s		0m0.001s		0m0.001s
+
+	100			0m0.001s		0m0.001s		0m0.001s
+
+	1000			0m0.005s		0m0.005s		0m0.003s
+
+	10000 			0m0.175s		0m0.157s		0m0.158s
+
+	100000			0m14.769s		0m15.431s		0m15.360s
+
+Insertion Sort On List:
+Insertion Sort With Binary Search:
+Vanilla Selection Sort:
+Quadratic Selection Sort:
+Merge Sort:
+
+	Random integers:
+	10 			0m0.001s		0m0.001s		0m0.001s
+
+	100			0m0.001s		0m0.001s		0m0.001s
+
+	1000			0m0.002s		0m0.002s		0m0.002s
+
+	10000 			0m0.011s		0m0.011s		0m0.009s
+
+	100000			0m0.083s		0m0.080s		0m0.080s
+
+	Ordered integers:
+	10 			0m0.001s		0m0.001s		0m0.001s
+
+	100			0m0.001s		0m0.001s		0m0.001s
+
+	1000			0m0.002s		0m0.002s		0m0.002s
+
+	10000 			0m0.005s		0m0.007s		0m0.009s
+
+	100000			0m0.060s		0m0.062s		0m0.060s
+
+	Reverse integers:
+	10 			0m0.001s		0m0.001s		0m0.001s
+
+	100			0m0.001s		0m0.001s		0m0.001s
+
+	1000			0m0.001s		0m0.002s		0m0.002s
+
+	10000 			0m0.007s		0m0.008s		0m0.007s
+
+	100000			0m0.061s		0m0.059s		0m0.062s
+
+Vanilla Quick Sort:
+
+	Random integers:
+	10 			0m0.001s		0m0.001s		0m0.001s
+
+	100			0m0.001s		0m0.001s		0m0.001s
+
+	1000			0m0.002s		0m0.002s		0m0.001s
+
+	10000 			0m0.009s		0m0.009s		0m0.008s
+
+	100000			0m0.065s		0m0.066s		0m0.066s
+
+	Ordered integers:
+	10 			0m0.001s		0m0.001s		0m0.001s
+
+	100			0m0.001s		0m0.001s		0m0.001s
+
+	1000			0m0.003s		0m0.003s		0m0.002s
+
+	10000 			0m0.117s		0m0.114s		0m0.115s
+
+	100000			0m10.983s		0m11.110s		0m11.085s
+
+	Reverse integers:
+	10 			0m0.001s		0m0.001s		0m0.001s
+
+	100			0m0.001s		0m0.001s		0m0.001s
+
+	1000			0m0.003s		0m0.003s		0m0.003s
+
+	10000 			0m0.122s		0m0.121s		0m0.126s
+
+	100000			0m11.585s		0m11.717s		0m11.776s
+
+Quick Sort with a Median of Three:
+
+	Random integers:
+	10 			0m0.001s		0m0.001s		0m0.001s
+
+	100			0m0.001s		0m0.001s		0m0.001s
+
+	1000			0m0.001s		0m0.002s		0m0.002s
+
+	10000 			0m0.010s		0m0.007s		0m0.010s
+
+	100000			0m0.066s		0m0.065s		0m0.068s
+
+	Ordered integers:
+	10 			0m0.001s		0m0.001s		0m0.001s
+
+	100			0m0.001s		0m0.001s		0m0.001s
+
+	1000			0m0.002s		0m0.001s		0m0.001s
+
+	10000 			0m0.004s		0m0.007s		0m0.003s
+
+	100000			0m0.040s		0m0.042s		0m0.042s
+
+	Reverse integers:
+	10 			0m0.001s		0m0.001s		0m0.001s
+
+	100			0m0.001s		0m0.001s		0m0.001s
+
+	1000			0m0.001s		0m0.002s		0m0.001s
+
+	10000 			0m0.006s		0m0.006s		0m0.005s
+
+	100000			0m0.046s		0m0.046s		0m0.045s
+
+Randomised Quick Sort:
+
+	Random integers:
+	10 			0m0.001s		0m0.001s		0m0.001s
+
+	100			0m0.001s		0m0.001s		0m0.001s
+
+	1000			0m0.002s		0m0.001s		0m0.002s
+
+	10000 			0m0.009s	 	0m0.007s		0m0.008s
+
+	100000			0m0.067s		0m0.065s		0m0.068s
+
+	Ordered integers:
+	10 			0m0.001s		0m0.001s		0m0.001s
+
+	100			0m0.001s		0m0.001s		0m0.001s
+
+	1000			0m0.002s		0m0.002s		0m0.002s
+
+	10000 			0m0.069s		0m0.072s		0m0.070s
+
+	100000			0m7.930s		0m7.908s		0m7.892s
+
+	Reverse integers:
+	10 			0m0.001s		0m0.001s		0m0.001s
+
+	100			0m0.001s		0m0.001s		0m0.001s
+
+	1000			0m0.002s		0m0.002s		0m0.002s
+
+	10000 			0m0.0046s		0m0.048s		0m0.047s
+
+	100000			0m5.911s		0m5.818s		0m5.826s
+
+Shell Sort Times 3 plus 1:
+
+	Random integers:
+	10 			0m0.001s		0m0.001s		0m0.001s
+
+	100			0m0.001s		0m0.001s		0m0.001s
+
+	1000			0m0.002s		0m0.001s		0m0.002s
+
+	10000 			0m0.010s	 	0m0.010s		0m0.009s
+
+	100000			0m0.075s		0m0.073s		0m0.076s
+
+	Ordered integers:
+	10 			0m0.001s		0m0.001s		0m0.001s
+
+	100			0m0.001s		0m0.001s		0m0.001s
+
+	1000			0m0.001s		0m0.001s		0m0.001s
+
+	10000 			0m0.006s	 	0m0.006s		0m0.006s
+
+	100000			0m0.043s		0m0.041s		0m0.041s
+
+	Reverse integers:
+	10 			0m0.001s		0m0.001s		0m0.001s
+
+	100			0m0.001s		0m0.001s		0m0.001s
+
+	1000			0m0.001s		0m0.001s		0m0.001s
+
+	10000 			0m0.007s		0m0.005s		0m0.006s
+
+	100000			0m0.043s		0m0.047s		0m0.045s
+
+Shell Sort Times 4:
+Bogo Sort:
+Radix Sort MSD First:
+Radix Sort LSD First:
+Bucket Sort:
+Counting Sort:
