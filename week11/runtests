@@ -1,15 +1,15 @@
 #!/bin/sh
 
-size=200
+size=5000
 
 cat /dev/null > log
 for insert in L A B R S V
 do
-	for order in A
+	for order in A P R
 	do
 		echo "" >> log
 		echo "Test: ./tlab $size $order $insert" >> log
 		echo "t" | ./tlab $size $order $insert | grep -v Tree  >> log
 	done
 done
-diff log expected
+./readLog log
