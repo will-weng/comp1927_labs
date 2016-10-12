@@ -18,4 +18,4 @@ Tree.o : Tree.c Tree.h
 readLog.o : readLog.c
 
 clean :
-	rm -f tlab $(OBJS) readLog.o core
+	rm -f *.o core
