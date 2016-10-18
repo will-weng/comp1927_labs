@@ -35,6 +35,7 @@ int main(int argc, char *argv[]) {
             fputs(line, out);
         }
     }
+    
     fclose(in);
     fclose(out);
     return EXIT_SUCCESS;
