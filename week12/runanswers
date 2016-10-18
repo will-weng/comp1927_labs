@@ -1,0 +1,12 @@
+#!/bin/sh
+
+cat /dev/null > log
+
+./mkwords 1000000 3 > wordsfile
+
+for size in 85711 100000 214283 400000 400837 857144 857137
+do
+	echo "" >> log
+	echo "size is $size" >> log
+	./words wordsfile $size >> log
+done
